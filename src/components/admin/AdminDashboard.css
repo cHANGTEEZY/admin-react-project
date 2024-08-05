@@ -1,0 +1,26 @@
+.admin-chart-area {
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+
+.admin-dashboard-container {
+  display: grid;
+  background-color: rgb(33, 34, 44);
+  height: 650px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr 1fr;
+  gap: 10px;
+  .grid-item {
+    /* background-color: grey; */
+    text-align: center;
+  }
+
+  .div1 {
+    grid-column: span 2;
+  }
+  .div2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

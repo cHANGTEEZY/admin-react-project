@@ -1,0 +1,9 @@
+.content-area {
+  /* margin-left: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: rgb(23, 22, 34); */
+  color: black;
+}

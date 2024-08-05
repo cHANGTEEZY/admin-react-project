@@ -1,0 +1,27 @@
+.user-profile-desc {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: bisque;
+  padding: 10px 0;
+}
+
+.user-image {
+  cursor: pointer;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: box-shadow ease-in 50ms;
+}
+
+.user-name {
+  font-family: SF Pro;
+  color: rgb(103, 93, 93);
+}
+
+.user-image:hover {
+  box-shadow: 1px -5px 5px black;
+}

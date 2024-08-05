@@ -1,0 +1,88 @@
+/* Media Queries */
+@media screen and (min-width: 1500px) {
+  .side-nav-container {
+    width: 13vw;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .side-nav-container {
+    width: 20vw;
+    height: 100vh;
+  }
+}
+
+/* Side Nav Container */
+.side-nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(83, 83, 88);
+  position: sticky;
+  top: 0;
+}
+
+/* Admin Nav Header */
+.admin-nav-header {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 1.8rem;
+  color: hsl(0, 6%, 66%);
+  background-color: rgb(83, 83, 88);
+  border-bottom: 1px solid rgb(98, 96, 96);
+}
+
+/* Side Nav */
+.side-nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Side Nav Links */
+.side-nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Side Nav Buttons */
+.side-nav-buttons {
+  width: 200px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: rgba(44, 46, 46, 0.5);
+  transition: all ease-in-out 200ms;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.side-nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Hover and Selected States */
+.side-nav-lists:hover .side-nav-buttons,
+.side-nav-buttons.selected {
+  background-color: rgba(44, 46, 46, 0.9);
+  color: rgba(255, 255, 255, 0.7);
+  transition: all ease-in-out 200ms;
+}
+
+.side-nav-buttons.selected > *,
+.side-nav-lists:hover .side-nav-buttons > * {
+  color: rgba(255, 255, 255, 0.9);
+  transition: all ease-in-out 200ms;
+}

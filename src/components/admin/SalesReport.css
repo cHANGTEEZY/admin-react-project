@@ -1,0 +1,23 @@
+.sales-report-container {
+  height: 690;
+}
+
+.sales-report-grid {
+  padding: 10px 0;
+  height: 690px;
+  display: grid;
+  background-color: rgb(33, 34, 44);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr 1fr;
+  gap: 2px;
+  .sales-grid-item {
+    height: 345px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.sales-grid-item-first {
+  grid-column: span 2;
+}

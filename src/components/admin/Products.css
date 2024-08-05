@@ -1,0 +1,59 @@
+.products {
+  padding: 20px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.products-table th,
+.products-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.products-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.products-table img {
+  max-width: 50px;
+  height: auto;
+  display: block;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  padding: 10px 15px;
+  background-color: rgb(192, 188, 188);
+  color: #121111;
+  border-radius: 50%;
+  width: 50px;
+}
+
+.active {
+  color: white;
+}
+
+.right-arrow-button,
+.left-arrow-button,
+.pagination-button {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px;
+}
